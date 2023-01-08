@@ -1,0 +1,244 @@
+[
+    {
+        "id": 1,
+        "name": "Software Engineer T-Shirt",
+        "price": 499,
+        "description": "T-shirt printed with definition.",
+        "type": "clothing",
+        "image": [
+            "https://static-01.daraz.pk/p/70857c5b898589ff7df0bfc596fe7ec4.jpg",
+            "https://static-01.daraz.pk/p/ea54cfac77f63405e44643b2026938d6.jpg"
+        ],
+        "characterstics": {
+            "colors": ["black", "blue"],
+            "sizes": ["s", "m"]
+        }
+    },
+    {
+        "id": 2,
+        "name": "HTML TShirt",
+        "price": 499,
+        "description": "Black T-shirt printed with HTML Code.",
+        "type": "clothing",
+        "image": [
+            "https://static-01.daraz.pk/p/34157c3e8912c343a2380b8fd5b79af2.jpg"
+        ],
+        "characterstics": {
+            "colors": ["black"],
+            "sizes": ["s", "m", "l"]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Smiley Amazing Smart Fit T-Shirt",
+        "price": 599,
+        "description": "The t-shirts are the ultimate in comfort. Cool Spire moisture wicking keep you cool and dry while the soft touch yarn and tag-free neck feels great all day long. These tees are built to last with durable tubular collar design and covered shoulder seams.",
+        "type": "clothing",
+        "image": [
+            "https://static-01.daraz.pk/p/bb9a69f90453ed1a86c68c1e0ab3a409.png",
+            "https://static-01.daraz.pk/p/1a2b5bf711cfad2a73c74f9518b7b53f.png",
+            "https://static-01.daraz.pk/p/ef8404116b77d1fd0a93025e9074903e.png"
+        ],
+        "characterstics": {
+            "colors": ["blue", "red", "yellow"],
+            "sizes": ["s", "m", "l"]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Hacktoberfest 2022 T-Shirt",
+        "price": 999,
+        "description": "2022 version T-Shirt of the HacktoberFest organized by Github.",
+        "type": "clothing",
+        "image": [
+            "https://res.cloudinary.com/practicaldev/image/fetch/s--mjMmKUfL--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8pvmqx2eyre5ju9yob8f.png",
+            "https://res.cloudinary.com/practicaldev/image/fetch/s--zWEVbCc8--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7bk8v2k63us8sbjmt256.png"
+        ],
+        "characterstics": {
+            "colors": ["gray", "white"],
+            "sizes": ["m", "l", "xl"]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Reality T-Shirt",
+        "price": 799,
+        "description": "The t-shirts are the ultimate in comfort. Cool Spire moisture wicking keep you cool and dry while the soft touch yarn and tag-free neck feels great all day long.",
+        "type": "clothing",
+        "image": [
+            "https://static-01.daraz.pk/p/e0d24cf0365bb2d0e3ae38f9934ddad5.jpg",
+            "https://static-01.daraz.pk/p/55052d7677bf8f1e0348ce9afa9d8e4e.jpg"
+        ],
+        "characterstics": {
+            "colors": ["black", "gray"],
+            "sizes": ["s", "m", "g"]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Tommy Hilfiger Men’s Quartz Watch",
+        "price": 9999,
+        "description": "Brand New 100% Original Comes with Tag and Tommy Hilfiger Packaging.",
+        "type": "watches",
+        "image": [
+            "https://static-01.daraz.pk/p/bddca3f9e2871b1152ca649cc972744b.jpg",
+            "https://static-01.daraz.pk/p/276a28a0483bd12980e8b7bff3aca1bc.jpg",
+            "https://static-01.daraz.pk/p/71e1e0a0cccba5e1f96690d7e4106dab.jpg"
+        ],
+        "characterstics": {
+            "style": "strap",
+            "dial": "blue",
+            "brand": "Tommy Hilfiger"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Casio MTP-V006L-1B Roman Black Dial Men’s Leather Watch",
+        "price": 7499,
+        "description": "Casio MTP-V006L-1B is a Roman Black Dial Men’s Leather Watch",
+        "type": "watches",
+        "image": [
+            "https://static-01.daraz.pk/p/bf1c6561653da09df6836e7c59c94ff7.jpg",
+            "https://static-01.daraz.pk/p/6e52cb43db1db611429b2d6a5daceb4e.jpg"
+        ],
+        "characterstics": {
+            "style": "strap",
+            "dial": "black",
+            "brand": "Casio"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Emporio Armani AR1736 Men's Watch",
+        "price": 1199,
+        "description": "Emporio Armani Wrist Watch For Men Quartz Leather Strap Blue Dial 41mm Watch AR1736.",
+        "type": "watches",
+        "image": [
+            "https://static-01.daraz.pk/p/145d0ca6b7d6387b099587cc17538073.jpg",
+            "https://static-01.daraz.pk/p/c2dc9bed5dda0cdb95aacf3a7ddbf44d.jpg"
+        ],
+        "characterstics": {
+            "style": "strap",
+            "dial": "black",
+            "brand": "Emporio Armani"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Hugo Boss Men’s Chronograph Quartz Watch",
+        "price": 1499,
+        "description": "Men's Watch by Hugo Boss.",
+        "type": "watches",
+        "image": [
+            "https://static-01.daraz.pk/p/eef57b611b4cbdc5a74d787924ef45aa.jpg",
+            "https://static-01.daraz.pk/p/a4ad60eee7fffaabc5a2922e30b7991f.jpg",
+            "https://static-01.daraz.pk/p/64dd5b137519b2e993c4e1d8cee4b746.jpg"
+        ],
+        "characterstics": {
+            "style": "chain",
+            "dial": "blue",
+            "brand": "Hugo Boss"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Skagen SKW6577 Men's Quartz Watch",
+        "price": 7999,
+        "description": "Men's Watch by Skagen.",
+        "type": "watches",
+        "image": [
+            "https://static-01.daraz.pk/p/bf12348b704601f886eedc3a6a78e274.jpg"
+        ],
+        "characterstics": {
+            "style": "chain",
+            "dial": "white",
+            "brand": "Skagen"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Sports Shoes for Men",
+        "price": 1999,
+        "description": "Light Breathable Upper Sports Shoes. Sneakers Shoes for Men.",
+        "type": "shoes",
+        "image": [
+            "https://static-01.daraz.pk/p/7793b00fb5433123a431a36490456c10.jpg",
+            "https://sg-live-01.slatic.net/p/0ae0318baf6a79386fe439e258eefdf4.jpg",
+            "https://sg-live-01.slatic.net/p/c2974b2a80666c89b787d705adf78629.jpg",
+            "https://sg-live-01.slatic.net/p/a17c953d7344a161731c0e9fc139c4e7.jpg"
+        ],
+        "characterstics": {
+            "style": "sports",
+            "color": ["blue", "black"],
+            "size": [40, 41, 42, 43, 44]
+        }
+    },
+    {
+        "id": 12,
+        "name": "Sneakers for Men",
+        "price": 2599,
+        "description": "The shoes are made of very good quality that provides a natural beauty that can be carried all year round.",
+        "type": "shoes",
+        "image": [
+            "https://pk-live-21.slatic.net/kf/Sc045187b3e8744539fc5ac1fce06da7bf.jpg",
+            "https://pk-live-21.slatic.net/kf/S301d61e153464f319be46709164b7141o.jpg"
+        ],
+        "characterstics": {
+            "style": "sports",
+            "color": ["white"],
+            "size": [40, 41, 42, 43, 44]
+        }
+    },
+    
+    {
+        "id": 13,
+        "name": "Casual Loafers for Men",
+        "price": 999,
+        "description": "Loafers for casual or formal wear.",
+        "type": "shoes",
+        "image": [
+            "https://static-01.daraz.pk/p/6ff24c6accc34ebb5dca83c7f244cdbf.jpg",
+            "https://static-01.daraz.pk/p/0c0795b2de2916622ab7dee4e00600fa.jpg",
+            "https://static-01.daraz.pk/p/a2a3fadae3133dd12a03afe631590207.jpg"
+        ],
+        "characterstics": {
+            "style": "formal",
+            "color": ["black", "lightbrown", "brown"],
+            "size": [40, 41, 42, 43, 44]
+        }
+    },
+    {
+        "id": 14,
+        "name": "Formal Loafers for Men",
+        "price": 2499,
+        "description": "Light Breathable Upper Sports Shoes. Sneakers Shoes for Men.",
+        "type": "shoes",
+        "image": [
+            "https://my-live-01.slatic.net/p/a5420e9321aeedc1d9f828b1f9a80f9e.jpg",
+            "https://my-live-01.slatic.net/p/084e26f9475abf1d660728ce2c09d60a.jpg",
+            "https://my-live-01.slatic.net/p/e5ff5a17718aa0c2546ef58d968a941d.jpg"
+        ],
+        "characterstics": {
+            "style": "sports",
+            "color": ["gray", "lightbrown", "brown"],
+            "size": [40, 41, 42, 43, 44]
+        }
+    },
+    {
+        "id": 15,
+        "name": "Lightweight Sports shoes for Men",
+        "price": 2999,
+        "description": "Lightweight Non-Slip High Quality Casual Running Shoes for men, Breathable Lite Racer Rebold Fashion Sneakers for men, Lace-Up Jogging Shoes Puremotion footwear",
+        "type": "shoes",
+        "image": [
+            "https://static-01.daraz.pk/p/b6825fe6a54a5ca98f37e2e38c06c970.jpg",
+            "https://static-01.daraz.pk/p/1841896cf9d6937c901006b8fb3ecfa3.jpg",
+            "https://static-01.daraz.pk/p/b089f8d9e9295928a5249f50f562ee25.jpg"
+        ],
+        "characterstics": {
+            "style": "sports",
+            "color": ["blue", "red", "iceblue"],
+            "size": [40, 41, 42, 43, 44]
+        }
+    }
+]
