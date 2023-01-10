@@ -1,6 +1,21 @@
 const app = require('express')()
-const products = require('./products.json')
+//const products = require('./products.json')
 const Product = require('./models/product')
+const morgan = require('morgan')
+
+app.use(morgan((token, request, response) => {
+    return [
+        token.method(request, response),
+        token.url(request, response),
+        token.status(request, response),
+        token.res(request, response, 'content-length'),
+        '-',
+        token['response-time'](request, response),
+        'ms',
+        JSON.stringify(request.body),
+    ].join(' ')
+})
+)
 
 app.get('/products', (req, res) => {
     Product.find({}).then(product => {
