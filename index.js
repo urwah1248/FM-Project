@@ -1,44 +1,26 @@
+
+// server hosted at https://magnificent-teal-scorpion.cyclic.app/
+
 const app = require('express')()
-//const products = require('./products.json')
-const Product = require('./models/product')
-const morgan = require('morgan')
+const PORT = 5000
+require('dotenv').config()
+const mongoose = require('mongoose')
+const { getAllProducts, getProductById, getProductsByType } = require('./controllers/productController')
 
-app.use(morgan((token, request, response) => {
-    return [
-        token.method(request, response),
-        token.url(request, response),
-        token.status(request, response),
-        token.res(request, response, 'content-length'),
-        '-',
-        token['response-time'](request, response),
-        'ms',
-        JSON.stringify(request.body),
-    ].join(' ')
-})
-)
 
-app.get('/products', (req, res) => {
-    Product.find({}).then(product => {
-        res.json(product)
+mongoose.connect(process.env.URI)
+    .then(() => {
+        console.log('MongoDB Connected')
     })
-})
-
-app.get('/products/:id', (req, res) => {
-    const id  = req.params.id
-    Product.find({id: id}).then(product => {
-        res.json(product)
+    .catch((error) => {
+        console.log('MongoDB Connection Error', error.message)
     })
-})
 
-app.get('/products/type/:type', (req, res) => {
-    const type  = req.params.type
-    Product.find({}).then(product => {
-        res.json(product.filter(item => {
-            return type===item.type
-        }))
-    })
-})
 
-const PORT = 3001
+app.get('/products', getAllProducts)
+app.get('/products/:id', getProductById)
+app.get('/products/type/:type', getProductsByType)
+
+
 app.listen(PORT)
-console.log(`Server running on localhost:${PORT}`)
+console.log(`Server running at https://localhost:${PORT}`)
